@@ -5,6 +5,7 @@
 </head>
 <body>
 <h1 th:text="#{hetis}"></h1>
+<h1 th:if="${weekend}" th:text="#{weekend}"></h1>
 <h1 th:if="not ${weekend}" th:text="#{werkdag}"></h1>
 </body>
 </html>
